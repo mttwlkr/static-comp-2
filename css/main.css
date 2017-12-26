@@ -3,9 +3,6 @@ p {
   padding:0;
   border:0;
   vertical-align:baseline;
-}
-
-p {
   color: #F4F1DE;
   -webkit-margin-before: 0em;
   -webkit-margin-after: 0em;
@@ -58,6 +55,10 @@ h1 {
 
 .card-upper:hover .find-cars, .card-upper.hover .find-cars {
   color: #83dbfe;
+}
+
+.my-account:hover {
+  color: #009c50;
 }
 
 h1 {
