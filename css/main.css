@@ -1,0 +1,384 @@
+p {
+  margin:0;
+  padding:0;
+  border:0;
+  vertical-align:baseline;
+}
+
+p {
+  color: #F4F1DE;
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+
+h1 {
+  font-family: 'Pacifico', cursive;
+}
+
+.random-share-header,
+.my-account,
+.views,
+.card-upper,
+.card-tag,
+.card-location {
+  font-family: 'Archivo Black', sans-serif;
+}
+
+.view-number,
+.card-price,
+.card-header,
+.card-lower,
+.card-footer,
+.left-header {
+  font-family: 'Tenor Sans', sans-serif;
+}
+
+
+.flight-div:hover .flight, .flight-div.hover .flight {
+  color: #ff7058;
+}
+
+.card-upper:hover .find-flights, .card-upper.hover .find-flights {
+  color: #ff7058;
+}
+
+.hotel-div:hover .hotel, .hotel-div.hover .hotel {
+  color: #ffd05b;
+}
+
+.card-upper:hover .find-hotels, .card-upper.hover .find-hotels {
+  color: #ffd05b;
+}
+
+.car-div:hover .car, .car-div.hover .car {
+  color: #83dbfe;
+}
+
+.card-upper:hover .find-cars, .card-upper.hover .find-cars {
+  color: #83dbfe;
+}
+
+h1 {
+  color: #ff7058; 
+}
+
+.random-share-header {
+  color: #03445c;
+}
+
+.header-font {
+  font-size: 1rem;
+}
+
+.header {
+  display: flex;
+  background-color: #465564;
+  padding: 25px 0px 36px 0px;
+  padding-left: 3%;
+  background: url(../images/northern-lights-2.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.right-header {
+  width: 42%;
+  display: inherit;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 2%;
+}
+
+.username-div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+#passport {
+  height: 25px;
+  width: 25px;
+  margin-right: 2%;
+}
+
+#down-arrow {
+  width: 15px;
+  height: 15px;
+  margin-left: 2%;
+}
+
+.to-where-div {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#travel-logo {
+  margin-left: 2%;
+}
+
+.left-header {
+  width: 50%;
+  display: inherit;
+  align-items: flex-end;
+}
+
+ul {
+  height: 100%;
+  background-color: #FFF;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0;
+  margin-left: 3%;
+  padding-left: 0;
+  -webkit-padding-start: 0px;
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+}
+
+.random-share-header-div {
+  display: flex;
+  width: 100%;
+  margin: 0% auto;  
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+
+.random-share-header {
+  width: 94%;
+  font-size: 150%;
+}
+
+.card {
+  list-style: none;
+  margin-right: 2.5em;
+  margin-bottom: 2.5em;
+  width: 275px;
+  height: 400px;
+  box-shadow: 0px 0px 12px black;
+}
+
+.card-icon-align {
+  display: inline-block;
+  width: 100%;
+  padding: 3%;
+} 
+
+.svg-box {
+  width: 40%;
+  display: inline-block;
+}
+
+.flight-div {
+  display: flex;
+  align-items: center;
+  width: 33%;
+  margin: .8em 0;
+}
+
+.flight,
+.hotel,
+.car {
+  margin-left: 3%;
+}
+
+.hotel-div {
+  display: flex;
+  align-items: center;
+  width: 33%;
+  margin: .8em 0;
+}
+
+.car-div {
+  display: flex;
+  align-items: center;
+  width: 33%;
+  margin: .8em 0;
+}
+
+.circle-logo {
+  width: 50px;
+  height: 50px;
+}
+
+.view-box {
+  width: 52.5%;
+  height: 100%;    
+  display: inline-block;
+  text-align: right;
+}
+
+.view-number {
+  font-size: 35px;
+}
+
+#bergen {
+  background: url(../images/bergen.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 40%;
+}
+
+#dubai {
+  background: url(../images/dubai.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 40%;
+}
+
+#sydney {
+  background: url(../images/sydney.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 40%;
+}
+
+#maldives {
+  background: url(../images/maldives.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 40%;
+}
+
+#whistler{
+  background: url(../images/whistler.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 40%;
+}
+
+.card-title {
+  display: inline-block;
+  background: url(../images/timothy-paul-smith-217282.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 40%;
+}
+
+.card-body {
+  background: #01445d;
+  width: 100%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  width: 94%;
+  height: 56%;
+  padding: 3%;
+}
+
+.card-header {
+  height: 26%;
+}
+
+.card-location {
+  font-size: 1.5em;
+  padding-bottom: 1%;
+}
+
+.card-upper {
+  height: 10%;
+  background-color: #009c51;
+  text-align: center;
+}
+
+.find {
+  margin-top: 1%;
+}
+
+.card-lower {
+  font-size: .9em;
+  height: 28%;
+  padding-top: 6%;
+} 
+
+.card-footer {
+  height: 25%;
+}
+
+.card-price {
+  height: 25%;
+}
+
+.card-tag {
+  height: 75%;
+  font-size: 2em;
+  padding-top: 2%;
+}
+
+.flight-price {
+  color: #ff7058;
+}
+
+.hotel-price {
+  color: #ffd05b;
+}
+
+.car-price {
+  color: #83dbfe;
+}
+
+@media (max-width: 700px) { 
+
+  .header {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-right: 0%;
+    padding-left: 0%;
+    padding: 4% 0px 6% 0px;
+  }
+  
+  .left-header {
+    width: 100%;
+    display: inherit;
+    align-items: flex-end;
+    font-family: 'Tenor Sans', sans-serif;
+  }
+
+  .car-div,
+  .hotel-div,
+  .flight-div {
+    margin: 0;
+    width: 100%;
+  }
+
+  .right-header {
+    width: 100%;
+  }
+
+  .card { 
+    margin: 0 auto;
+    margin-bottom: 2.5em;
+  }
+
+  ul {
+    margin-left: 0%;  
+  }
+
+  .random-share-header {
+    text-align: center;
+    width: 100%;
+  }
+
+  .car-div,
+  .hotel-div,
+  .flight-div,
+  .to-where-div {
+    justify-content: center;
+  }
+
+  .to-where-div {
+    padding: 1% 0;
+  }  
+
+  .username-div {
+    margin-right: 5%;
+  }
+
+}
+
