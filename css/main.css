@@ -1,18 +1,4 @@
-p {
-  margin:0;
-  padding:0;
-  border:0;
-  vertical-align:baseline;
-  color: #F4F1DE;
-  -webkit-margin-before: 0em;
-  -webkit-margin-after: 0em;
-  -webkit-margin-start: 0px;
-  -webkit-margin-end: 0px;
-}
-
-h1 {
-  font-family: 'Pacifico', cursive;
-}
+/*Fonts*/
 
 .random-share-header,
 .my-account,
@@ -32,6 +18,25 @@ h1 {
   font-family: 'Tenor Sans', sans-serif;
 }
 
+h1 {
+  font-family: 'Pacifico', cursive;
+}
+
+/*Padding/Margin resets*/
+
+p {
+  margin:0;
+  padding:0;
+  border:0;
+  vertical-align:baseline;
+  color: #F4F1DE;
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+
+/*Hover States*/
 
 .flight-div:hover .flight, .flight-div.hover .flight {
   color: #ff7058;
@@ -61,18 +66,6 @@ h1 {
   color: #009c50;
 }
 
-h1 {
-  color: #ff7058; 
-}
-
-.random-share-header {
-  color: #03445c;
-}
-
-.header-font {
-  font-size: 1rem;
-}
-
 .header {
   display: flex;
   background-color: #465564;
@@ -82,6 +75,43 @@ h1 {
   background-size: cover;
   width: 100%;
   height: 100%;
+}
+
+.left-header {
+  width: 50%;
+  display: inherit;
+  align-items: flex-end;
+}
+
+.flight,
+.hotel,
+.car {
+  margin-left: 3%;
+}
+
+.header-font {
+  font-size: 1rem;
+}
+
+.flight-div {
+  display: flex;
+  align-items: center;
+  width: 33%;
+  margin: .8em 0;
+}
+
+.hotel-div {
+  display: flex;
+  align-items: center;
+  width: 33%;
+  margin: .8em 0;
+}
+
+.car-div {
+  display: flex;
+  align-items: center;
+  width: 33%;
+  margin: .8em 0;
 }
 
 .right-header {
@@ -119,18 +149,31 @@ h1 {
   align-items: center;
 }
 
+h1 {
+  color: #ff7058; 
+}
+
 #travel-logo {
   margin-left: 2%;
 }
 
-.left-header {
-  width: 50%;
-  display: inherit;
-  align-items: flex-end;
+.random-share-header-div {
+  display: flex;
+  width: 100%;
+  margin: 0% auto;  
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.random-share-header {
+  width: 94%;
+  color: #03445c;
+  font-size: 150%;
 }
 
 ul {
   height: 100%;
+  width: 100%;
   background-color: #FFF;
   display: flex;
   flex-wrap: wrap;
@@ -142,20 +185,6 @@ ul {
   -webkit-margin-after: 0em;
 }
 
-.random-share-header-div {
-  display: flex;
-  width: 100%;
-  margin: 0% auto;  
-  padding-top: 25px;
-  padding-bottom: 25px;
-}
-
-
-.random-share-header {
-  width: 94%;
-  font-size: 150%;
-}
-
 .card {
   list-style: none;
   margin-right: 2.5em;
@@ -163,6 +192,14 @@ ul {
   width: 275px;
   height: 400px;
   box-shadow: 0px 0px 12px black;
+}
+
+.card-title {
+  display: inline-block;
+  background: url(../images/timothy-paul-smith-217282.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 40%;
 }
 
 .card-icon-align {
@@ -174,33 +211,6 @@ ul {
 .svg-box {
   width: 40%;
   display: inline-block;
-}
-
-.flight-div {
-  display: flex;
-  align-items: center;
-  width: 33%;
-  margin: .8em 0;
-}
-
-.flight,
-.hotel,
-.car {
-  margin-left: 3%;
-}
-
-.hotel-div {
-  display: flex;
-  align-items: center;
-  width: 33%;
-  margin: .8em 0;
-}
-
-.car-div {
-  display: flex;
-  align-items: center;
-  width: 33%;
-  margin: .8em 0;
 }
 
 .circle-logo {
@@ -219,6 +229,18 @@ ul {
   font-size: 35px;
 }
 
+.card-body {
+  background: #01445d;
+  width: 100%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  width: 94%;
+  height: 56%;
+  padding: 3%;
+}
+
+
 #bergen {
   background: url(../images/bergen.jpg);
   background-size: cover;
@@ -227,7 +249,7 @@ ul {
 }
 
 #bergen-gradient {
-  background-image: linear-gradient( to top, #03445c, #9e7345 );
+  background-image: linear-gradient( to top, #03445c, #006a25 );
 }
 
 #dubai {
@@ -239,6 +261,17 @@ ul {
 
 #dubai-gradient {
   background-image: linear-gradient( to top, #03445c, #8b635c );
+}
+
+#whistler {
+  background: url(../images/whistler.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 40%;
+}
+
+#whistler-gradient {
+  background-image: linear-gradient( to top, #03445c, #4f5c8e );
 }
 
 #sydney {
@@ -263,35 +296,59 @@ ul {
   background-image: linear-gradient( to top, #03445c, #05b9c8 );
 }
 
-
-#whistler {
-  background: url(../images/whistler.jpg);
+#casablanca {
+  background: url(../images/casablanca.jpg);
   background-size: cover;
   width: 100%;
   height: 40%;
 }
 
-#whistler-gradient {
-  background-image: linear-gradient( to top, #03445c, #525e90 );
+#casablanca-gradient {
+  background-image: linear-gradient( to top, #03445c, #f57228 );
 }
 
-.card-title {
-  display: inline-block;
-  background: url(../images/timothy-paul-smith-217282.jpg);
+#thailand {
+  background: url(../images/thailand.jpg);
   background-size: cover;
   width: 100%;
   height: 40%;
 }
 
-.card-body {
-  background: #01445d;
+#thailand-gradient {
+  background-image: linear-gradient( to top, #03445c, #ad334a );
+}
+
+#singapore {
+  background: url(../images/singapore-1.jpg);
+  background-size: cover;
   width: 100%;
-  height: 60%;
-  display: flex;
-  flex-direction: column;
-  width: 94%;
-  height: 56%;
-  padding: 3%;
+  height: 40%;
+}
+
+#singapore-gradient {
+  background-image: linear-gradient( to top, #03445c, #c34900 ); /*#a28542 */
+}
+
+#berlin {
+  background: url(../images/berlin.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 40%;
+}
+
+#berlin-gradient {
+  background-image: linear-gradient( to top, #03445c, #5b3247 );
+}
+
+#barcelona {
+  background: url(../images/barcelona.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 40%;
+}
+
+#barcelona-gradient {
+  background-image: linear-gradient( to top, #03445c, #0496e9 );
 }
 
 .card-header {
@@ -303,14 +360,14 @@ ul {
   padding-bottom: 1%;
 }
 
+.find {
+  margin-top: 1%;
+}
+
 .card-upper {
   height: 10%;
   background-color: #009c51;
   text-align: center;
-}
-
-.find {
-  margin-top: 1%;
 }
 
 .card-lower {
@@ -353,6 +410,7 @@ ul {
     padding-right: 0%;
     padding-left: 0%;
     padding: 4% 0px 6% 0px;
+    width: 100%;
   }
   
   .left-header {
@@ -360,31 +418,6 @@ ul {
     display: inherit;
     align-items: flex-end;
     font-family: 'Tenor Sans', sans-serif;
-  }
-
-  .car-div,
-  .hotel-div,
-  .flight-div {
-    margin: 0;
-    width: 100%;
-  }
-
-  .right-header {
-    width: 100%;
-  }
-
-  .card { 
-    margin: 0 auto;
-    margin-bottom: 2.5em;
-  }
-
-  ul {
-    margin-left: 0%;  
-  }
-
-  .random-share-header {
-    text-align: center;
-    width: 100%;
   }
 
   .car-div,
@@ -402,5 +435,30 @@ ul {
     margin-right: 5%;
   }
 
+  .car-div,
+  .hotel-div,
+  .flight-div {
+    margin: 0;
+    width: 100%;
+  }
+
+  .right-header {
+    width: 100%;
+  }
+
+  ul {
+    margin-left: 0%; 
+    width: 100%; 
+  }
+
+  .random-share-header {
+    text-align: center;
+    width: 100%;
+  }
+
+  .card { 
+    margin: 0 auto;
+    margin-bottom: 2.5em;
+  }
 }
 
