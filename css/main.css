@@ -402,7 +402,19 @@ ul {
   color: #83dbfe;
 }
 
-@media (max-width: 700px) { 
+@media (max-width: 670px) { 
+  
+  .right-header {
+    width: 42%;
+  }
+
+  .left-header {
+    width: 60%;
+  }
+
+}
+
+@media (max-width: 549px) { 
 
   .header {
     display: flex;
