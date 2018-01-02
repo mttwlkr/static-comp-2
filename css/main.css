@@ -45,10 +45,11 @@ p {
 
 .flight-div:hover .flight, .flight-div.hover .flight {
   color: #ff7058;
+
 }
 
 .card-upper:hover .find-flights, .card-upper.hover .find-flights {
-  color: #BF2A13;
+  color: #ff7058; /*#BF2A13;*/
 }
 
 .hotel-div:hover .hotel, .hotel-div.hover .hotel {
@@ -69,6 +70,11 @@ p {
 
 .my-account:hover {
   color: #009c50;
+}
+
+.card-upper:hover,
+.left-header {
+  cursor: pointer;
 }
 
 .header {
@@ -378,7 +384,7 @@ ul {
 
 .card-upper {
   height: 10%;
-  background-color: #009c51;
+  background-color: #1b1b1b;
   text-align: center;
 }
 
