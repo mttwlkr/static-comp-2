@@ -74,6 +74,7 @@ p {
   background: url(../images/northern-lights-2.jpg);
   background-size: cover;
   overflow-x: hidden;
+  max-width: 100%;
   height: 100%;
 }
 
@@ -181,6 +182,7 @@ ul {
   overflow-x: hidden;
   background-color: #FFF;
   display: flex;
+  max-width: 100%;
   flex-wrap: wrap;
   margin-top: 0;
   margin-left: 3%;
