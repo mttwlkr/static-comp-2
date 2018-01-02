@@ -1,5 +1,10 @@
 /*Fonts*/
 
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;  
+}
+
 .random-share-header,
 .my-account,
 .views,
