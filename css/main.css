@@ -73,7 +73,7 @@ p {
   padding-left: 3%;
   background: url(../images/northern-lights-2.jpg);
   background-size: cover;
-  width: 100%;
+  overflow-x: hidden;
   height: 100%;
 }
 
@@ -81,6 +81,11 @@ p {
   width: 50%;
   display: inherit;
   align-items: flex-end;
+}
+
+.header-logo {
+  height: 30px;
+  width: 30px;
 }
 
 .flight,
@@ -131,8 +136,8 @@ p {
 }
 
 #passport {
-  height: 25px;
-  width: 25px;
+  height: 30px;
+  width: 30px;
   margin-right: 2%;
 }
 
@@ -173,7 +178,7 @@ h1 {
 
 ul {
   height: 100%;
-  width: 100%;
+  overflow-x: hidden;
   background-color: #FFF;
   display: flex;
   flex-wrap: wrap;
@@ -429,6 +434,16 @@ ul {
     display: inherit;
     align-items: flex-end;
     font-family: 'Tenor Sans', sans-serif;
+  }
+
+  .header-logo {
+    height: 30px;
+    width: 30px;
+  }
+
+  #passport {
+    height: 30px;
+    width: 30px;
   }
 
   .car-div,
