@@ -10,7 +10,7 @@
 
 ###### ![My-Travel-Static-Comp](https://user-images.githubusercontent.com/30199861/34495908-875272b2-efb4-11e7-84c2-1efdc306f051.png);
 
-######![Static-Comp-2-Comp] (https://user-images.githubusercontent.com/30199861/34495828-27c97872-efb4-11e7-9a77-11e016ca4a48.jpg);
+###### ![Static-Comp-2-Comp] (https://user-images.githubusercontent.com/30199861/34495828-27c97872-efb4-11e7-9a77-11e016ca4a48.jpg);
 
 
 
