@@ -431,7 +431,7 @@ ul {
   }
 }
 
-@media (max-width: 549px) { 
+@media (max-width: 670px) { 
 
   .header {
     display: flex;
